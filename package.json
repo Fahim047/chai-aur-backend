@@ -1,0 +1,25 @@
+{
+  "name": "chai-aur-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node.js"
+  ],
+  "author": "Fahimul Islam",
+  "license": "ISC",
+  "description": "A video series of backend development using Node.js by Hitesh Choudhary",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3"
+  }
+}
